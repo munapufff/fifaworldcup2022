@@ -180,6 +180,7 @@
 				4A519A4E29354F5D0083148D /* hayya.mp3 */,
 			);
 			name = audio;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4A61E89B2934D91D00266F9B /* country */ = {
@@ -219,6 +220,7 @@
 				4A61E8632934D91700266F9B /* Wales.png */,
 			);
 			name = country;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4A61E89C2934D93100266F9B /* logo */ = {
@@ -230,6 +232,7 @@
 				4A3BC25F2934D2FC00408570 /* logodark.jpg */,
 			);
 			name = logo;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4A61E89D2934D93E00266F9B /* font */ = {
@@ -238,15 +241,24 @@
 				4A3BC2532934AD4800408570 /* Qatar2022Arabic-Heavy.ttf */,
 			);
 			name = font;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		4ACBBA1C2934A60D00419863 = {
+		4A7B6087294C61090026C016 /* media */ = {
 			isa = PBXGroup;
 			children = (
 				4A519A4D29354F520083148D /* audio */,
 				4A61E89D2934D93E00266F9B /* font */,
 				4A61E89C2934D93100266F9B /* logo */,
 				4A61E89B2934D91D00266F9B /* country */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		4ACBBA1C2934A60D00419863 = {
+			isa = PBXGroup;
+			children = (
+				4A7B6087294C61090026C016 /* media */,
 				4ACBBA272934A60D00419863 /* finalwc2022 */,
 				4ACBBA3E2934A60E00419863 /* finalwc2022Tests */,
 				4ACBBA482934A60E00419863 /* finalwc2022UITests */,
