@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2D2E542935B00800B46B0B /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4A2D2E532935B00800B46B0B /* logo.gif */; };
+		4A3BC2542934AD6600408570 /* Qatar2022Arabic-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC2532934AD4800408570 /* Qatar2022Arabic-Heavy.ttf */; };
+		4A3BC2562934B3E800408570 /* groupPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC2552934B3E800408570 /* groupPlist.plist */; };
+		4A3BC25A2934BBB500408570 /* resultPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC2592934BBB500408570 /* resultPlist.plist */; };
+		4A3BC25C2934BBC200408570 /* teamPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC25B2934BBC200408570 /* teamPlist.plist */; };
+		4A3BC2602934D2FC00408570 /* logodark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC25F2934D2FC00408570 /* logodark.jpg */; };
+		4A3BC2662934D67700408570 /* logocream.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BC2652934D67700408570 /* logocream.png */; };
+		4A519A4A29350BCF0083148D /* teamViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A519A4929350BCF0083148D /* teamViewCell.swift */; };
+		4A519A4C29350DBD0083148D /* resultViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A519A4B29350DBD0083148D /* resultViewCell.swift */; };
+		4A519A4F29354F5D0083148D /* hayya.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A519A4E29354F5D0083148D /* hayya.mp3 */; };
+		4A61E87B2934D91700266F9B /* Switzerland.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E85B2934D91700266F9B /* Switzerland.png */; };
+		4A61E87C2934D91700266F9B /* Australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E85C2934D91700266F9B /* Australia.png */; };
+		4A61E87D2934D91700266F9B /* Cameroon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E85D2934D91700266F9B /* Cameroon.png */; };
+		4A61E87E2934D91700266F9B /* Saudi Arabia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E85E2934D91700266F9B /* Saudi Arabia.png */; };
+		4A61E87F2934D91700266F9B /* Qatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E85F2934D91700266F9B /* Qatar.png */; };
+		4A61E8802934D91700266F9B /* England.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8602934D91700266F9B /* England.png */; };
+		4A61E8812934D91700266F9B /* Spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8612934D91700266F9B /* Spain.png */; };
+		4A61E8822934D91700266F9B /* Canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8622934D91700266F9B /* Canada.png */; };
+		4A61E8832934D91700266F9B /* Wales.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8632934D91700266F9B /* Wales.png */; };
+		4A61E8842934D91700266F9B /* Belgium.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8642934D91700266F9B /* Belgium.png */; };
+		4A61E8852934D91700266F9B /* Senegal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8652934D91700266F9B /* Senegal.png */; };
+		4A61E8862934D91700266F9B /* Serbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8662934D91700266F9B /* Serbia.png */; };
+		4A61E8872934D91700266F9B /* Germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8672934D91700266F9B /* Germany.png */; };
+		4A61E8882934D91700266F9B /* Portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8682934D91700266F9B /* Portugal.png */; };
+		4A61E8892934D91700266F9B /* France.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8692934D91700266F9B /* France.png */; };
+		4A61E88A2934D91700266F9B /* Ghana.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86A2934D91700266F9B /* Ghana.png */; };
+		4A61E88B2934D91700266F9B /* Denmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86B2934D91700266F9B /* Denmark.png */; };
+		4A61E88C2934D91700266F9B /* Netherlands.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86C2934D91700266F9B /* Netherlands.png */; };
+		4A61E88D2934D91700266F9B /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86D2934D91700266F9B /* USA.png */; };
+		4A61E88E2934D91700266F9B /* Brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86E2934D91700266F9B /* Brazil.png */; };
+		4A61E88F2934D91700266F9B /* Croatia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E86F2934D91700266F9B /* Croatia.png */; };
+		4A61E8902934D91700266F9B /* Korea.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8702934D91700266F9B /* Korea.png */; };
+		4A61E8912934D91700266F9B /* Tunisia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8712934D91700266F9B /* Tunisia.png */; };
+		4A61E8922934D91700266F9B /* Iran.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8722934D91700266F9B /* Iran.png */; };
+		4A61E8932934D91700266F9B /* Uruguay.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8732934D91700266F9B /* Uruguay.png */; };
+		4A61E8942934D91700266F9B /* Poland.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8742934D91700266F9B /* Poland.png */; };
+		4A61E8962934D91700266F9B /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8762934D91700266F9B /* Mexico.png */; };
+		4A61E8972934D91700266F9B /* Morocco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8772934D91700266F9B /* Morocco.png */; };
+		4A61E8982934D91700266F9B /* Japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8782934D91700266F9B /* Japan.png */; };
+		4A61E8992934D91700266F9B /* Costa Rica.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E8792934D91700266F9B /* Costa Rica.png */; };
+		4A61E89A2934D91700266F9B /* Ecuador.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A61E87A2934D91700266F9B /* Ecuador.png */; };
+		4A61E89F2934E20800266F9B /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E89E2934E20800266F9B /* menuVC.swift */; };
+		4A61E8A12934E23100266F9B /* teamTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E8A02934E23100266F9B /* teamTBVC.swift */; };
+		4A61E8A32934E24900266F9B /* resultTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A61E8A22934E24900266F9B /* resultTBVC.swift */; };
+		4ABB1AC1294C587300C05FED /* Argentina.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB1AC0294C587300C05FED /* Argentina.png */; };
+		4ABB1AC3294C5A3100C05FED /* logotrans.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ABB1AC2294C5A3100C05FED /* logotrans.png */; };
+		4ACBBA292934A60D00419863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA282934A60D00419863 /* AppDelegate.swift */; };
+		4ACBBA2B2934A60D00419863 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA2A2934A60D00419863 /* SceneDelegate.swift */; };
+		4ACBBA2D2934A60D00419863 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA2C2934A60D00419863 /* ViewController.swift */; };
+		4ACBBA302934A60D00419863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBBA2E2934A60D00419863 /* Main.storyboard */; };
+		4ACBBA322934A60E00419863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBBA312934A60E00419863 /* Assets.xcassets */; };
+		4ACBBA352934A60E00419863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBBA332934A60E00419863 /* LaunchScreen.storyboard */; };
+		4ACBBA402934A60E00419863 /* finalwc2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA3F2934A60E00419863 /* finalwc2022Tests.swift */; };
+		4ACBBA4A2934A60E00419863 /* finalwc2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA492934A60E00419863 /* finalwc2022UITests.swift */; };
+		4ACBBA4C2934A60E00419863 /* finalwc2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBBA4B2934A60E00419863 /* finalwc2022UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ACBBA3C2934A60E00419863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACBBA1D2934A60D00419863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACBBA242934A60D00419863;
+			remoteInfo = finalwc2022;
+		};
+		4ACBBA462934A60E00419863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ACBBA1D2934A60D00419863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACBBA242934A60D00419863;
+			remoteInfo = finalwc2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BDDD1FFBE2E2511CE5585E6 /* Pods-finalwc2022Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022Tests.debug.xcconfig"; path = "Target Support Files/Pods-finalwc2022Tests/Pods-finalwc2022Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		31B7695A370D286B2057CCF6 /* Pods-finalwc2022Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022Tests.release.xcconfig"; path = "Target Support Files/Pods-finalwc2022Tests/Pods-finalwc2022Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3CCA0E4D59B895B6ECFC92D9 /* Pods-finalwc2022-finalwc2022UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022-finalwc2022UITests.debug.xcconfig"; path = "Target Support Files/Pods-finalwc2022-finalwc2022UITests/Pods-finalwc2022-finalwc2022UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2D2E532935B00800B46B0B /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		4A3BC2532934AD4800408570 /* Qatar2022Arabic-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qatar2022Arabic-Heavy.ttf"; sourceTree = "<group>"; };
+		4A3BC2552934B3E800408570 /* groupPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = groupPlist.plist; sourceTree = "<group>"; };
+		4A3BC2592934BBB500408570 /* resultPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = resultPlist.plist; sourceTree = "<group>"; };
+		4A3BC25B2934BBC200408570 /* teamPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = teamPlist.plist; sourceTree = "<group>"; };
+		4A3BC25F2934D2FC00408570 /* logodark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logodark.jpg; sourceTree = "<group>"; };
+		4A3BC2652934D67700408570 /* logocream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logocream.png; sourceTree = "<group>"; };
+		4A519A4929350BCF0083148D /* teamViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamViewCell.swift; sourceTree = "<group>"; };
+		4A519A4B29350DBD0083148D /* resultViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewCell.swift; sourceTree = "<group>"; };
+		4A519A4E29354F5D0083148D /* hayya.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hayya.mp3; sourceTree = "<group>"; };
+		4A61E85B2934D91700266F9B /* Switzerland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Switzerland.png; sourceTree = "<group>"; };
+		4A61E85C2934D91700266F9B /* Australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Australia.png; sourceTree = "<group>"; };
+		4A61E85D2934D91700266F9B /* Cameroon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cameroon.png; sourceTree = "<group>"; };
+		4A61E85E2934D91700266F9B /* Saudi Arabia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Saudi Arabia.png"; sourceTree = "<group>"; };
+		4A61E85F2934D91700266F9B /* Qatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Qatar.png; sourceTree = "<group>"; };
+		4A61E8602934D91700266F9B /* England.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = England.png; sourceTree = "<group>"; };
+		4A61E8612934D91700266F9B /* Spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spain.png; sourceTree = "<group>"; };
+		4A61E8622934D91700266F9B /* Canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Canada.png; sourceTree = "<group>"; };
+		4A61E8632934D91700266F9B /* Wales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wales.png; sourceTree = "<group>"; };
+		4A61E8642934D91700266F9B /* Belgium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Belgium.png; sourceTree = "<group>"; };
+		4A61E8652934D91700266F9B /* Senegal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Senegal.png; sourceTree = "<group>"; };
+		4A61E8662934D91700266F9B /* Serbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Serbia.png; sourceTree = "<group>"; };
+		4A61E8672934D91700266F9B /* Germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Germany.png; sourceTree = "<group>"; };
+		4A61E8682934D91700266F9B /* Portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portugal.png; sourceTree = "<group>"; };
+		4A61E8692934D91700266F9B /* France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = France.png; sourceTree = "<group>"; };
+		4A61E86A2934D91700266F9B /* Ghana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ghana.png; sourceTree = "<group>"; };
+		4A61E86B2934D91700266F9B /* Denmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Denmark.png; sourceTree = "<group>"; };
+		4A61E86C2934D91700266F9B /* Netherlands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Netherlands.png; sourceTree = "<group>"; };
+		4A61E86D2934D91700266F9B /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = USA.png; sourceTree = "<group>"; };
+		4A61E86E2934D91700266F9B /* Brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brazil.png; sourceTree = "<group>"; };
+		4A61E86F2934D91700266F9B /* Croatia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Croatia.png; sourceTree = "<group>"; };
+		4A61E8702934D91700266F9B /* Korea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Korea.png; sourceTree = "<group>"; };
+		4A61E8712934D91700266F9B /* Tunisia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunisia.png; sourceTree = "<group>"; };
+		4A61E8722934D91700266F9B /* Iran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Iran.png; sourceTree = "<group>"; };
+		4A61E8732934D91700266F9B /* Uruguay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uruguay.png; sourceTree = "<group>"; };
+		4A61E8742934D91700266F9B /* Poland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poland.png; sourceTree = "<group>"; };
+		4A61E8762934D91700266F9B /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico.png; sourceTree = "<group>"; };
+		4A61E8772934D91700266F9B /* Morocco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morocco.png; sourceTree = "<group>"; };
+		4A61E8782934D91700266F9B /* Japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Japan.png; sourceTree = "<group>"; };
+		4A61E8792934D91700266F9B /* Costa Rica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Costa Rica.png"; sourceTree = "<group>"; };
+		4A61E87A2934D91700266F9B /* Ecuador.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ecuador.png; sourceTree = "<group>"; };
+		4A61E89E2934E20800266F9B /* menuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		4A61E8A02934E23100266F9B /* teamTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamTBVC.swift; sourceTree = "<group>"; };
+		4A61E8A22934E24900266F9B /* resultTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultTBVC.swift; sourceTree = "<group>"; };
+		4ABB1AC0294C587300C05FED /* Argentina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Argentina.png; sourceTree = "<group>"; };
+		4ABB1AC2294C5A3100C05FED /* logotrans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotrans.png; sourceTree = "<group>"; };
+		4ACBBA252934A60D00419863 /* finalwc2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalwc2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACBBA282934A60D00419863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ACBBA2A2934A60D00419863 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4ACBBA2C2934A60D00419863 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4ACBBA2F2934A60D00419863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ACBBA312934A60E00419863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ACBBA342934A60E00419863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ACBBA362934A60E00419863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ACBBA3B2934A60E00419863 /* finalwc2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalwc2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACBBA3F2934A60E00419863 /* finalwc2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalwc2022Tests.swift; sourceTree = "<group>"; };
+		4ACBBA452934A60E00419863 /* finalwc2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalwc2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACBBA492934A60E00419863 /* finalwc2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalwc2022UITests.swift; sourceTree = "<group>"; };
+		4ACBBA4B2934A60E00419863 /* finalwc2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalwc2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60221E4883BB629CCAB763E1 /* Pods-finalwc2022.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022.release.xcconfig"; path = "Target Support Files/Pods-finalwc2022/Pods-finalwc2022.release.xcconfig"; sourceTree = "<group>"; };
+		91E1887B75A8CB9ADEE3B4F9 /* Pods-finalwc2022.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022.debug.xcconfig"; path = "Target Support Files/Pods-finalwc2022/Pods-finalwc2022.debug.xcconfig"; sourceTree = "<group>"; };
+		9C9011032F662F182214345F /* Pods-finalwc2022-finalwc2022UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalwc2022-finalwc2022UITests.release.xcconfig"; path = "Target Support Files/Pods-finalwc2022-finalwc2022UITests/Pods-finalwc2022-finalwc2022UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACBBA222934A60D00419863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA382934A60E00419863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA422934A60E00419863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A519A4D29354F520083148D /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				4A519A4E29354F5D0083148D /* hayya.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		4A61E89B2934D91D00266F9B /* country */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB1AC0294C587300C05FED /* Argentina.png */,
+				4A61E85C2934D91700266F9B /* Australia.png */,
+				4A61E8642934D91700266F9B /* Belgium.png */,
+				4A61E86E2934D91700266F9B /* Brazil.png */,
+				4A61E85D2934D91700266F9B /* Cameroon.png */,
+				4A61E8622934D91700266F9B /* Canada.png */,
+				4A61E8792934D91700266F9B /* Costa Rica.png */,
+				4A61E86F2934D91700266F9B /* Croatia.png */,
+				4A61E86B2934D91700266F9B /* Denmark.png */,
+				4A61E87A2934D91700266F9B /* Ecuador.png */,
+				4A61E8602934D91700266F9B /* England.png */,
+				4A61E8692934D91700266F9B /* France.png */,
+				4A61E8672934D91700266F9B /* Germany.png */,
+				4A61E86A2934D91700266F9B /* Ghana.png */,
+				4A61E8722934D91700266F9B /* Iran.png */,
+				4A61E8782934D91700266F9B /* Japan.png */,
+				4A61E8702934D91700266F9B /* Korea.png */,
+				4A61E8762934D91700266F9B /* Mexico.png */,
+				4A61E8772934D91700266F9B /* Morocco.png */,
+				4A61E86C2934D91700266F9B /* Netherlands.png */,
+				4A61E8742934D91700266F9B /* Poland.png */,
+				4A61E8682934D91700266F9B /* Portugal.png */,
+				4A61E85F2934D91700266F9B /* Qatar.png */,
+				4A61E85E2934D91700266F9B /* Saudi Arabia.png */,
+				4A61E8652934D91700266F9B /* Senegal.png */,
+				4A61E8662934D91700266F9B /* Serbia.png */,
+				4A61E8612934D91700266F9B /* Spain.png */,
+				4A61E85B2934D91700266F9B /* Switzerland.png */,
+				4A61E8712934D91700266F9B /* Tunisia.png */,
+				4A61E8732934D91700266F9B /* Uruguay.png */,
+				4A61E86D2934D91700266F9B /* USA.png */,
+				4A61E8632934D91700266F9B /* Wales.png */,
+			);
+			name = country;
+			sourceTree = "<group>";
+		};
+		4A61E89C2934D93100266F9B /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB1AC2294C5A3100C05FED /* logotrans.png */,
+				4A2D2E532935B00800B46B0B /* logo.gif */,
+				4A3BC2652934D67700408570 /* logocream.png */,
+				4A3BC25F2934D2FC00408570 /* logodark.jpg */,
+			);
+			name = logo;
+			sourceTree = "<group>";
+		};
+		4A61E89D2934D93E00266F9B /* font */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BC2532934AD4800408570 /* Qatar2022Arabic-Heavy.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		4ACBBA1C2934A60D00419863 = {
+			isa = PBXGroup;
+			children = (
+				4A519A4D29354F520083148D /* audio */,
+				4A61E89D2934D93E00266F9B /* font */,
+				4A61E89C2934D93100266F9B /* logo */,
+				4A61E89B2934D91D00266F9B /* country */,
+				4ACBBA272934A60D00419863 /* finalwc2022 */,
+				4ACBBA3E2934A60E00419863 /* finalwc2022Tests */,
+				4ACBBA482934A60E00419863 /* finalwc2022UITests */,
+				4ACBBA262934A60D00419863 /* Products */,
+				FEF2BE4B96AEA9E114961AF8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACBBA262934A60D00419863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBBA252934A60D00419863 /* finalwc2022.app */,
+				4ACBBA3B2934A60E00419863 /* finalwc2022Tests.xctest */,
+				4ACBBA452934A60E00419863 /* finalwc2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACBBA272934A60D00419863 /* finalwc2022 */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBBA282934A60D00419863 /* AppDelegate.swift */,
+				4ACBBA2A2934A60D00419863 /* SceneDelegate.swift */,
+				4ACBBA332934A60E00419863 /* LaunchScreen.storyboard */,
+				4ACBBA2E2934A60D00419863 /* Main.storyboard */,
+				4ACBBA2C2934A60D00419863 /* ViewController.swift */,
+				4A61E89E2934E20800266F9B /* menuVC.swift */,
+				4A61E8A02934E23100266F9B /* teamTBVC.swift */,
+				4A519A4929350BCF0083148D /* teamViewCell.swift */,
+				4A61E8A22934E24900266F9B /* resultTBVC.swift */,
+				4A519A4B29350DBD0083148D /* resultViewCell.swift */,
+				4ACBBA362934A60E00419863 /* Info.plist */,
+				4A3BC2552934B3E800408570 /* groupPlist.plist */,
+				4A3BC25B2934BBC200408570 /* teamPlist.plist */,
+				4A3BC2592934BBB500408570 /* resultPlist.plist */,
+				4ACBBA312934A60E00419863 /* Assets.xcassets */,
+			);
+			path = finalwc2022;
+			sourceTree = "<group>";
+		};
+		4ACBBA3E2934A60E00419863 /* finalwc2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBBA3F2934A60E00419863 /* finalwc2022Tests.swift */,
+			);
+			path = finalwc2022Tests;
+			sourceTree = "<group>";
+		};
+		4ACBBA482934A60E00419863 /* finalwc2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ACBBA492934A60E00419863 /* finalwc2022UITests.swift */,
+				4ACBBA4B2934A60E00419863 /* finalwc2022UITestsLaunchTests.swift */,
+			);
+			path = finalwc2022UITests;
+			sourceTree = "<group>";
+		};
+		FEF2BE4B96AEA9E114961AF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E1887B75A8CB9ADEE3B4F9 /* Pods-finalwc2022.debug.xcconfig */,
+				60221E4883BB629CCAB763E1 /* Pods-finalwc2022.release.xcconfig */,
+				3CCA0E4D59B895B6ECFC92D9 /* Pods-finalwc2022-finalwc2022UITests.debug.xcconfig */,
+				9C9011032F662F182214345F /* Pods-finalwc2022-finalwc2022UITests.release.xcconfig */,
+				2BDDD1FFBE2E2511CE5585E6 /* Pods-finalwc2022Tests.debug.xcconfig */,
+				31B7695A370D286B2057CCF6 /* Pods-finalwc2022Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACBBA242934A60D00419863 /* finalwc2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBBA4F2934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022" */;
+			buildPhases = (
+				1A1FE487BD6D1DF7EAFE5D94 /* [CP] Check Pods Manifest.lock */,
+				4ACBBA212934A60D00419863 /* Sources */,
+				4ACBBA222934A60D00419863 /* Frameworks */,
+				4ACBBA232934A60D00419863 /* Resources */,
+				67ED2F5907210EA50E671A62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finalwc2022;
+			productName = finalwc2022;
+			productReference = 4ACBBA252934A60D00419863 /* finalwc2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ACBBA3A2934A60E00419863 /* finalwc2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBBA522934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022Tests" */;
+			buildPhases = (
+				EAD457660122B81FA94C2418 /* [CP] Check Pods Manifest.lock */,
+				4ACBBA372934A60E00419863 /* Sources */,
+				4ACBBA382934A60E00419863 /* Frameworks */,
+				4ACBBA392934A60E00419863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACBBA3D2934A60E00419863 /* PBXTargetDependency */,
+			);
+			name = finalwc2022Tests;
+			productName = finalwc2022Tests;
+			productReference = 4ACBBA3B2934A60E00419863 /* finalwc2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ACBBA442934A60E00419863 /* finalwc2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACBBA552934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022UITests" */;
+			buildPhases = (
+				35D1FC6283C83B918C2F896B /* [CP] Check Pods Manifest.lock */,
+				4ACBBA412934A60E00419863 /* Sources */,
+				4ACBBA422934A60E00419863 /* Frameworks */,
+				4ACBBA432934A60E00419863 /* Resources */,
+				5264C5A3F49870319410E96B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ACBBA472934A60E00419863 /* PBXTargetDependency */,
+			);
+			name = finalwc2022UITests;
+			productName = finalwc2022UITests;
+			productReference = 4ACBBA452934A60E00419863 /* finalwc2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACBBA1D2934A60D00419863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4ACBBA242934A60D00419863 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4ACBBA3A2934A60E00419863 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4ACBBA242934A60D00419863;
+					};
+					4ACBBA442934A60E00419863 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4ACBBA242934A60D00419863;
+					};
+				};
+			};
+			buildConfigurationList = 4ACBBA202934A60D00419863 /* Build configuration list for PBXProject "finalwc2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ACBBA1C2934A60D00419863;
+			productRefGroup = 4ACBBA262934A60D00419863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACBBA242934A60D00419863 /* finalwc2022 */,
+				4ACBBA3A2934A60E00419863 /* finalwc2022Tests */,
+				4ACBBA442934A60E00419863 /* finalwc2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACBBA232934A60D00419863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A61E8982934D91700266F9B /* Japan.png in Resources */,
+				4ABB1AC1294C587300C05FED /* Argentina.png in Resources */,
+				4A61E8822934D91700266F9B /* Canada.png in Resources */,
+				4A519A4F29354F5D0083148D /* hayya.mp3 in Resources */,
+				4A3BC2662934D67700408570 /* logocream.png in Resources */,
+				4A61E87B2934D91700266F9B /* Switzerland.png in Resources */,
+				4A61E8942934D91700266F9B /* Poland.png in Resources */,
+				4A3BC2542934AD6600408570 /* Qatar2022Arabic-Heavy.ttf in Resources */,
+				4A61E8832934D91700266F9B /* Wales.png in Resources */,
+				4A61E87D2934D91700266F9B /* Cameroon.png in Resources */,
+				4A61E8862934D91700266F9B /* Serbia.png in Resources */,
+				4A61E8972934D91700266F9B /* Morocco.png in Resources */,
+				4A61E8922934D91700266F9B /* Iran.png in Resources */,
+				4A61E87F2934D91700266F9B /* Qatar.png in Resources */,
+				4A2D2E542935B00800B46B0B /* logo.gif in Resources */,
+				4A3BC25A2934BBB500408570 /* resultPlist.plist in Resources */,
+				4A61E8882934D91700266F9B /* Portugal.png in Resources */,
+				4A61E8802934D91700266F9B /* England.png in Resources */,
+				4A61E88B2934D91700266F9B /* Denmark.png in Resources */,
+				4A61E8912934D91700266F9B /* Tunisia.png in Resources */,
+				4ACBBA352934A60E00419863 /* LaunchScreen.storyboard in Resources */,
+				4A61E8932934D91700266F9B /* Uruguay.png in Resources */,
+				4A3BC25C2934BBC200408570 /* teamPlist.plist in Resources */,
+				4A61E88D2934D91700266F9B /* USA.png in Resources */,
+				4ABB1AC3294C5A3100C05FED /* logotrans.png in Resources */,
+				4A61E89A2934D91700266F9B /* Ecuador.png in Resources */,
+				4A61E87E2934D91700266F9B /* Saudi Arabia.png in Resources */,
+				4A61E87C2934D91700266F9B /* Australia.png in Resources */,
+				4A3BC2562934B3E800408570 /* groupPlist.plist in Resources */,
+				4A61E88F2934D91700266F9B /* Croatia.png in Resources */,
+				4A3BC2602934D2FC00408570 /* logodark.jpg in Resources */,
+				4A61E88E2934D91700266F9B /* Brazil.png in Resources */,
+				4A61E8872934D91700266F9B /* Germany.png in Resources */,
+				4A61E8902934D91700266F9B /* Korea.png in Resources */,
+				4A61E88C2934D91700266F9B /* Netherlands.png in Resources */,
+				4A61E8892934D91700266F9B /* France.png in Resources */,
+				4A61E8852934D91700266F9B /* Senegal.png in Resources */,
+				4A61E8962934D91700266F9B /* Mexico.png in Resources */,
+				4ACBBA322934A60E00419863 /* Assets.xcassets in Resources */,
+				4ACBBA302934A60D00419863 /* Main.storyboard in Resources */,
+				4A61E8992934D91700266F9B /* Costa Rica.png in Resources */,
+				4A61E8812934D91700266F9B /* Spain.png in Resources */,
+				4A61E8842934D91700266F9B /* Belgium.png in Resources */,
+				4A61E88A2934D91700266F9B /* Ghana.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA392934A60E00419863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA432934A60E00419863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1FE487BD6D1DF7EAFE5D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalwc2022-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D1FC6283C83B918C2F896B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalwc2022-finalwc2022UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5264C5A3F49870319410E96B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalwc2022-finalwc2022UITests/Pods-finalwc2022-finalwc2022UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalwc2022-finalwc2022UITests/Pods-finalwc2022-finalwc2022UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finalwc2022-finalwc2022UITests/Pods-finalwc2022-finalwc2022UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67ED2F5907210EA50E671A62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalwc2022/Pods-finalwc2022-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-finalwc2022/Pods-finalwc2022-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-finalwc2022/Pods-finalwc2022-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD457660122B81FA94C2418 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalwc2022Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACBBA212934A60D00419863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBBA2D2934A60D00419863 /* ViewController.swift in Sources */,
+				4A519A4C29350DBD0083148D /* resultViewCell.swift in Sources */,
+				4A61E89F2934E20800266F9B /* menuVC.swift in Sources */,
+				4ACBBA292934A60D00419863 /* AppDelegate.swift in Sources */,
+				4A61E8A32934E24900266F9B /* resultTBVC.swift in Sources */,
+				4ACBBA2B2934A60D00419863 /* SceneDelegate.swift in Sources */,
+				4A519A4A29350BCF0083148D /* teamViewCell.swift in Sources */,
+				4A61E8A12934E23100266F9B /* teamTBVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA372934A60E00419863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBBA402934A60E00419863 /* finalwc2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACBBA412934A60E00419863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACBBA4A2934A60E00419863 /* finalwc2022UITests.swift in Sources */,
+				4ACBBA4C2934A60E00419863 /* finalwc2022UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ACBBA3D2934A60E00419863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACBBA242934A60D00419863 /* finalwc2022 */;
+			targetProxy = 4ACBBA3C2934A60E00419863 /* PBXContainerItemProxy */;
+		};
+		4ACBBA472934A60E00419863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ACBBA242934A60D00419863 /* finalwc2022 */;
+			targetProxy = 4ACBBA462934A60E00419863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ACBBA2E2934A60D00419863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACBBA2F2934A60D00419863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ACBBA332934A60E00419863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACBBA342934A60E00419863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ACBBA4D2934A60E00419863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ACBBA4E2934A60E00419863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACBBA502934A60E00419863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E1887B75A8CB9ADEE3B4F9 /* Pods-finalwc2022.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = finalwc2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ACBBA512934A60E00419863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60221E4883BB629CCAB763E1 /* Pods-finalwc2022.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = finalwc2022/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ACBBA532934A60E00419863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDDD1FFBE2E2511CE5585E6 /* Pods-finalwc2022Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalwc2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finalwc2022";
+			};
+			name = Debug;
+		};
+		4ACBBA542934A60E00419863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31B7695A370D286B2057CCF6 /* Pods-finalwc2022Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalwc2022.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/finalwc2022";
+			};
+			name = Release;
+		};
+		4ACBBA562934A60E00419863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CCA0E4D59B895B6ECFC92D9 /* Pods-finalwc2022-finalwc2022UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = finalwc2022;
+			};
+			name = Debug;
+		};
+		4ACBBA572934A60E00419863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9011032F662F182214345F /* Pods-finalwc2022-finalwc2022UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = munap.finalwc2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = finalwc2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACBBA202934A60D00419863 /* Build configuration list for PBXProject "finalwc2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBBA4D2934A60E00419863 /* Debug */,
+				4ACBBA4E2934A60E00419863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBBA4F2934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBBA502934A60E00419863 /* Debug */,
+				4ACBBA512934A60E00419863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBBA522934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBBA532934A60E00419863 /* Debug */,
+				4ACBBA542934A60E00419863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACBBA552934A60E00419863 /* Build configuration list for PBXNativeTarget "finalwc2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACBBA562934A60E00419863 /* Debug */,
+				4ACBBA572934A60E00419863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACBBA1D2934A60D00419863 /* Project object */;
+}

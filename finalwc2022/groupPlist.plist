@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<string>Qatar</string>
+		<string>Ecuador</string>
+		<string>Senegal</string>
+		<string>Netherlands</string>
+	</array>
+	<key>B</key>
+	<array>
+		<string>England</string>
+		<string>Iran</string>
+		<string>USA</string>
+		<string>Wales</string>
+	</array>
+	<key>C</key>
+	<array>
+		<string>Argentina</string>
+		<string>Saudi Arabia</string>
+		<string>Mexico</string>
+		<string>Poland</string>
+	</array>
+	<key>D</key>
+	<array>
+		<string>France</string>
+		<string>Australia</string>
+		<string>Denmark</string>
+		<string>Tunisia</string>
+	</array>
+	<key>E</key>
+	<array>
+		<string>Spain</string>
+		<string>Costa Rica</string>
+		<string>Germany</string>
+		<string>Japan</string>
+	</array>
+	<key>F</key>
+	<array>
+		<string>Belgium</string>
+		<string>Canada</string>
+		<string>Morocco</string>
+		<string>Croatia</string>
+	</array>
+	<key>G</key>
+	<array>
+		<string>Brazil</string>
+		<string>Serbia</string>
+		<string>Switzerland</string>
+		<string>Cameroon</string>
+	</array>
+	<key>H</key>
+	<array>
+		<string>Portugal</string>
+		<string>Ghana</string>
+		<string>Uruguay</string>
+		<string>Korea</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_finalwc2022_finalwc2022UITests {
+  umbrella header "Pods-finalwc2022-finalwc2022UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
